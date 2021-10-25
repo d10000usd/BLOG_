@@ -1,7 +1,5 @@
 # BLOG_
 
-
-
 GIT
 
 echo "# BLOG_" >> README.md
@@ -24,7 +22,7 @@ git status
 
 # 실행순서
 
-docker --version 
+docker --version
 
 cd frontend && sudo docker run -it node
 
@@ -36,14 +34,11 @@ docker ps -a
 
 https://www.yalco.kr/36_docker/
 
-
-
 런할때 필요한 라이브러리 받기
 
 sudo docker run -it node
 
 docker exec -it vibrant_hodgkin bash
-
 
 # 기본명령어
 
@@ -51,6 +46,6 @@ docker exec -it vibrant_hodgkin bash
 docker stop $(docker ps -aq)
 docker system prune -a
 
-
+a
 
 docker build -t frontend-img .
