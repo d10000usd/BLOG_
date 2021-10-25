@@ -1,4 +1,8 @@
-FROM mysql:5.7
+#FROM mysql:5.7 for win or intel mac
+
+#for m1 mac
+FROM --platform=linux/x86_64 mysql:5.7 
+
 
 # 이미지 환경변수들 세팅
 # 실전에서는 비밀번호 등을 이곳에 입력하지 말 것!
