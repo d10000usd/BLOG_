@@ -36,6 +36,15 @@ docker ps -a
 
 https://www.yalco.kr/36_docker/
 
+
+
+런할때 필요한 라이브러리 받기
+
+sudo docker run -it node
+
+docker exec -it vibrant_hodgkin bash
+
+
 # 기본명령어
 
 모든 컨테이너 삭제명령어
