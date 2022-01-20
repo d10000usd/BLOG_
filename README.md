@@ -65,7 +65,7 @@ conda install -c conda-forge mysql-client
 
 > git init      <=== 깃 폴더 이동후 깃사용 초기화
 > git config user.name  <=== 유저내임확인  git config user.name "d10000usd" 초기화가능
-> git config user.email <=== 유저이메일  git config user.name "d10000usd@gmail.com" 초기화가능, 12qwaszx@!@!
+> git config user.email <=== 유저이메일  git config user.name "d10000usd@gmail.com" 초기화가능, 12~@!@!
 
 git에다 저장소 만들고
 
